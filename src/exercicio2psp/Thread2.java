@@ -22,7 +22,7 @@ public class Thread2 extends Thread{
         }
         }
         try {
-            Thread.sleep(2000);
+            Thread.sleep(1000);
         } catch (InterruptedException ex) {
             Logger.getLogger(Thread2.class.getName()).log(Level.SEVERE, null, ex);
         }
